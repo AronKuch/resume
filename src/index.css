@@ -7,6 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Try this color scheme: https://coolors.co/f4f4f4-1d1c28-747572-3f7cac-92140c */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -15,4 +17,10 @@ code {
 .App {
   display: grid;
   grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+header {
+  grid-column: 1/3;
+  text-align: center;
 }
