@@ -1,11 +1,11 @@
+import { Header, Work, Nonwork } from "./components/design.js";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <Header />
+      <Work />
+      <Nonwork />
     </div>
   );
 }
