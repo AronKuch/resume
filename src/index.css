@@ -16,8 +16,10 @@ code {
 
 .App {
   display: grid;
+  grid-auto-flow: column;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
+  grid-template-rows: repeat(7, 1fr);
 }
 
 header {

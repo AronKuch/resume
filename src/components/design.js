@@ -1,14 +1,6 @@
 const Experience = (props) => {
-  let row = props.number + (props.type === "Education" ? 4 : 2);
-  let col = props.type === "Work" ? 1 : 2;
-  let gridLocation = {
-    gridRowStart: row,
-    gridRowEnd: "span 1",
-    gridColumnStart: col,
-    gridColumnEnd: "span 1",
-  };
   return (
-    <div className="experience" style={gridLocation}>
+    <div className="experience">
       <h2>
         {props.type} Role - Time {props.number}
       </h2>
