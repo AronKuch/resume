@@ -1,4 +1,4 @@
-const Section = () => {
+const Experience = () => {
   return (
     <>
       <h2>Role - Time</h2>
@@ -9,12 +9,12 @@ const Section = () => {
   );
 };
 
-const SectionList = (props) => {
+const ExperienceList = (props) => {
   let list = [];
   for (let i = 0; i < props.number; i++) {
     list.push(
       <>
-        <Section />
+        <Experience />
       </>
     );
   }
@@ -34,7 +34,7 @@ export const Work = () => {
   return (
     <>
       <h1>Work Experience</h1>
-      <SectionList number="5" />
+      <ExperienceList number="5" />
     </>
   );
 };
@@ -43,7 +43,7 @@ export const Nonwork = () => {
   return (
     <>
       <h1>Other Experience</h1>
-      <SectionList number="3" />
+      <ExperienceList number="3" />
     </>
   );
 };
