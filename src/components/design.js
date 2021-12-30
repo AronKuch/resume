@@ -34,19 +34,19 @@ export const Header = () => {
 
 export const Work = () => {
   return (
-    <>
+    <div className="work">
       <h1>Work Experience</h1>
       <ExperienceList type="Work" number="5" />
-    </>
+    </div>
   );
 };
 
 export const Nonwork = () => {
   return (
-    <>
+    <div className="nonwork">
       <h1>Other Experience</h1>
       <ExperienceList type="Nonwork" number="2" />
       <ExperienceList type="Education" number="2" />
-    </>
+    </div>
   );
 };
